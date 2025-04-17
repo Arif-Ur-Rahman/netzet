@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       {/* Header */}
-      <header className="container mx-auto px-[211px] py-4 flex justify-between items-center">
+      <header className="container mx-auto px-4 md:px-[211px] py-4 flex justify-between items-center">
         <div className="flex-1">
           <Image
             src="/logo.png"
@@ -58,36 +58,37 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-[211px] py-4 md:py-0 flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="container mx-auto px-4 md:px-[211px] py-4 md:py-0 flex flex-col-reverse md:flex-row items-center">
+        {/* Left Text Section */}
+        <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8 text-center md:text-left">
+          <h1 className="text-2xl md:text-4xl font-bold mb-4">
             Want to Turn Social Media Into a Profitable Career?
           </h1>
-          <h2 className="text-xl md:text-2xl font-bold mb-6">
+          <h2 className="text-lg md:text-2xl font-bold mb-6">
             <span className="text-cyan-400">Discover your way to success</span>
             <br />
             <span className="text-cyan-400">with Fametonic:</span>
           </h2>
 
-          <ul className="space-y-4 mb-8">
-            <li className="flex items-start">
+          <ul className="space-y-4 mb-8 text-sm md:text-base">
+            <li className="flex items-start justify-center md:justify-start">
               <span className="text-yellow-400 mr-2">✨</span>
               <span>
                 Start growing your influence right away—no waiting required!
               </span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start justify-center md:justify-start">
               <span className="text-yellow-400 mr-2">✨</span>
               <span>
                 Create viral TikToks and Reels step by step with easy-to-follow
                 lessons
               </span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start justify-center md:justify-start">
               <span className="text-yellow-400 mr-2">✨</span>
               <span>Use a Personal AI Worker to boost your content</span>
             </li>
-            <li className="flex items-start">
+            <li className="flex items-start justify-center md:justify-start">
               <span className="text-yellow-400 mr-2">✨</span>
               <span>
                 Learn from expert-led courses designed for aspiring influencers
@@ -102,29 +103,31 @@ export default function Home() {
             GET STARTED <span className="ml-2 text-xl">→</span>
           </button>
 
-          <p className="text-xs text-gray-400 mt-2 text-center md:text-left">
-            1 minute quiz for personalized insights
+          <p className="text-xs text-gray-400 mt-2 text-center">
+            1-minute quiz for personalized insights
           </p>
 
-          <p className="text-xs text-gray-500 mt-4">
+          <p className="text-xs text-gray-500 mt-4 text-center md:text-left">
             By clicking "Get Started", you agree with Terms and Conditions,
             Privacy Policy, Subscription Terms
           </p>
         </div>
 
-        <div className="md:w-1/2 relative">
+        {/* Right Image Section */}
+        <div className="md:w-1/2 relative mb-8 md:mb-0">
           <div className="absolute w-full h-full bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl -z-10"></div>
           <Image
             src="/4d1288cd4dbdbb04d9ed70622b2a9988.png"
             alt="Fametonic App"
-            width={500}
-            height={600}
+            width={300}
+            height={400}
             className="relative z-10 mx-auto"
           />
         </div>
       </section>
 
-      <footer className="container mx-auto px-[211px] py-4 text-xs text-gray-500">
+      {/* Footer */}
+      <footer className="container mx-auto px-4 md:px-[211px] py-4 text-xs text-gray-500 text-center md:text-left">
         <p>Fametonic 2025 ©All Rights Reserved.</p>
       </footer>
     </main>
