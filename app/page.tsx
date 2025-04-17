@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#010101] text-white">
       {/* Sale Banner */}
-      <div className="bg-gradient-to-r from-[#FC004E] to-[#10CBE0] py-2 px-4 text-center">
+      <div className="bg-gradient-to-r from-[#FC004E] via-[#8a6194] to-[#10CBE0] py-2 px-4 text-center">
         <p className="flex items-center justify-center text-sm md:text-base">
           <span className="mr-2">🚀</span>
           <span className="font-bold font-Figtree text-[#00e7f9]">
             FRESH BEGINNINGS SALE:
           </span>
-          <span className="ml-1">
+          <span className="ml-1 text-white">
             Extra 25% OFF, Limited Spots - start your journey today!
           </span>
         </p>
