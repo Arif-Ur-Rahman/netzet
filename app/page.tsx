@@ -127,7 +127,7 @@ export default function Home() {
             </div>
 
             <p className="text-xs text-gray-500 mt-4 text-center md:text-left">
-              By clicking "Get Started", you agree with Terms and Conditions,
+              By clicking Get Started, you agree with Terms and Conditions,
               Privacy Policy, Subscription Terms
             </p>
           </div>
