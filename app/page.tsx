@@ -6,16 +6,22 @@ export default function Home() {
     <main className="min-h-screen bg-[#010101] text-white">
       {/* Sale Banner */}
       <div className="bg-gradient-to-r from-[#FC004E] via-[#8a6194] to-[#10CBE0] py-2 px-4 text-center">
-        <p className="flex items-center justify-center text-sm md:text-base">
-          <span className="mr-2">🚀</span>
-          <span className="font-bold font-Figtree text-[#00e7f9]">
-            FRESH BEGINNINGS SALE:
-          </span>
-          <span className="ml-1 text-white">
-            Extra 25% OFF, Limited Spots - start your journey today!
-          </span>
-        </p>
-      </div>
+  <p className="flex flex-col md:flex-row items-center justify-center text-sm md:text-base font-Figtree">
+    <span className="flex items-center">
+      <span className="mr-1 md:mr-2">🚀</span>
+      <span className="font-bold text-[#00e7f9]">
+        FRE$H BEGINNINGS SALE:
+      </span>
+      <span className="md:hidden font-bold text-[#00e7f9]">Extra 25% OFF</span>
+    </span>
+    <span className="hidden md:inline text-white ml-1">
+      Extra 25% OFF
+    </span>
+    <span className="text-white md:ml-1">
+      <span className="hidden md:inline">, </span>Limited Spots - start your journey today!
+    </span>
+  </p>
+</div>
 
       {/* Header */}
       <header className="container mx-auto px-4 md:px-[211px] py-4 flex justify-between items-center">
@@ -117,7 +123,7 @@ export default function Home() {
         <div className="md:w-1/2 relative mb-8 md:mb-0">
           <div className="absolute w-full h-full bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-full blur-3xl -z-10"></div>
           <Image
-            src="/4d1288cd4dbdbb04d9ed70622b2a9988.png"
+            src="/Influe_mobile_mockup_3 1.png"
             alt="Fametonic App"
             width={300}
             height={400}
