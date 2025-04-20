@@ -81,10 +81,10 @@ export default function Home() {
         <div className="flex flex-col-reverse md:flex-row items-center">
           {/* Left Text Section - Now with absolute positioning on desktop */}
           <div className="md:w-[55%] mb-8 md:mb-0 md:pr-8 text-center md:text-left relative z-10 md:bg-transparent md:backdrop-blur-sm md:rounded-lg md:p-6">
-            <h1 className="text-2xl md:text-4xl font-bold mb-4">
+            <h1 className="text-2xl md:text-4xl font-bold mb-4  ">
               Want to Turn Social Media Into a Profitable Career?
             </h1>
-            <h2 className="text-4xl md:text-2xl font-bold mb-6">
+            <h2 className="text-4xl md:text-2xl font-bold mb-6  ">
               <span className="block text-[color:#00E7F9] drop-shadow-[2px_2px_0_#FF00B8]">
                 Discover your way to success
               </span>
@@ -93,7 +93,7 @@ export default function Home() {
               </span>
             </h2>
 
-            <ul className="space-y-4 mb-8 text-sm md:text-base">
+            <ul className="space-y-4 mb-8 text-base md:text-base md: ">
               {[
                 "Start growing your influence right away—no waiting required!",
                 "Create viral TikToks and Reels step by step with easy-to-follow lessons",
@@ -140,7 +140,7 @@ export default function Home() {
               alt="Fametonic App"
               width={666}
               height={679}
-              className="w-full h-auto max-w-[666px] mx-auto"
+              className="w-666px h-auto"
             />
           </div>
         </div>
